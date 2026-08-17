@@ -1,0 +1,25 @@
+# Unity gerados automaticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# Cache do Unity
+MemoryCaptures/
