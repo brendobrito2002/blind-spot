@@ -20,6 +20,7 @@ Thumbs.db
 *.tmp
 *.user
 *.userprefs
+*.vs/
 
 # Cache do Unity
 MemoryCaptures/
