@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+    public bool isDead = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,11 +21,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.linearVelocity = moveInput * moveSpeed;
+        if (!isDead)
+        {
+            rb.linearVelocity = moveInput * moveSpeed;
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
+
+        if (isDead) return;
+
         animator.SetBool("IsWalking", true);
 
         if(context.canceled)
@@ -36,5 +44,30 @@ public class PlayerMovement : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("InputX", moveInput.x);
         animator.SetFloat("InputY", moveInput.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(!isDead && other.CompareTag("KillZone"))
+        {
+            isDead = true;
+
+            animator.SetFloat("LastInputX", moveInput.x);
+            animator.SetFloat("LastInputY", moveInput.y);
+
+            animator.SetBool("IsWalking", false);
+            rb.linearVelocity = Vector2.zero;
+            animator.SetTrigger("Dead");
+        }
+    }
+
+    public void OnDeathAnimation()
+    {
+        if (isDead)
+        {
+            isDead = false;
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+
+        }
     }
 }

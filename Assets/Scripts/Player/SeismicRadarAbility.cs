@@ -19,6 +19,9 @@ public class SeismicRadarAbility : MonoBehaviour
 
     void Update()
     {
+        var playerMovement = GetComponent<PlayerMovement>();
+        if (playerMovement != null && playerMovement.isDead) return;
+
         // Só dispara se a tecla foi apertada NESTE frame (evita repetir enquanto segura) e não está em cooldown
         if (Keyboard.current != null && Keyboard.current[pulseKey].wasPressedThisFrame && !isOnCooldown)
         {
