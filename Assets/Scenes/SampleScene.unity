@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 59333413}
   - component: {fileID: 59333415}
   - component: {fileID: 59333414}
+  - component: {fileID: 59333416}
   m_Layer: 0
   m_Name: SeismicRadar
   m_TagString: Untagged
@@ -343,6 +344,28 @@ MonoBehaviour:
       type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_Cache: []
+--- !u!95 &59333416
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59333412}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &257506382
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 5
+  isDead: 0
 --- !u!114 &2060568820
 MonoBehaviour:
   m_ObjectHideFlags: 0
