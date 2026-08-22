@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 6b0918944442fd44294aefe0a4890fae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1554245807528652102
+    second: toph power test 1_0
+  - first:
+      213: 9000269805891179199
+    second: toph power test 1_1
+  - first:
+      213: 6036072481831543632
+    second: toph power test 1_2
+  - first:
+      213: -2095511018097572279
+    second: toph power test 1_3
+  - first:
+      213: -8313518047247025095
+    second: toph power test 1_4
+  - first:
+      213: 8765724812803080739
+    second: toph power test 1_5
+  - first:
+      213: 1274936969070160025
+    second: toph power test 1_6
+  - first:
+      213: -7527970671974177818
+    second: toph power test 1_7
+  - first:
+      213: -4904496089620903650
+    second: toph power test 1_8
+  - first:
+      213: 2071084398077100626
+    second: toph power test 1_9
+  - first:
+      213: -4335399026225766880
+    second: toph power test 1_10
+  - first:
+      213: 316586723141659261
+    second: toph power test 1_11
+  - first:
+      213: -6241097361583727585
+    second: toph power test 1_12
+  - first:
+      213: -138776701633278978
+    second: toph power test 1_13
+  - first:
+      213: 4951344703725718443
+    second: toph power test 1_14
+  - first:
+      213: -3418182797100507342
+    second: toph power test 1_15
+  - first:
+      213: -7209321488450392155
+    second: toph power test 1_16
+  - first:
+      213: 8086919076403564181
+    second: toph power test 1_17
+  - first:
+      213: 7233241316251381554
+    second: toph power test 1_18
+  - first:
+      213: 3231132709886088930
+    second: toph power test 1_19
+  - first:
+      213: 3516213879628100015
+    second: toph power test 1_20
+  - first:
+      213: 1077383417644904703
+    second: toph power test 1_21
+  - first:
+      213: -3635146429454287823
+    second: toph power test 1_22
+  - first:
+      213: 3866939259041806437
+    second: toph power test 1_23
+  - first:
+      213: 9213977709224922099
+    second: toph power test 1_24
+  - first:
+      213: 6641753374109675331
+    second: toph power test 1_25
+  - first:
+      213: -4869436770261428184
+    second: toph power test 1_26
+  - first:
+      213: -1202818088815312467
+    second: toph power test 1_27
+  - first:
+      213: 7433330379147369873
+    second: toph power test 1_28
+  - first:
+      213: 5409243112180138502
+    second: toph power test 1_29
+  - first:
+      213: -6674932380221584675
+    second: toph power test 1_30
+  - first:
+      213: 1305048634450697029
+    second: toph power test 1_31
+  - first:
+      213: -336353698134107576
+    second: toph power test 1_32
+  - first:
+      213: -2370304646878838880
+    second: toph power test 1_33
+  - first:
+      213: -3337026791014987591
+    second: toph power test 1_34
+  - first:
+      213: 5766736550831524740
+    second: toph power test 1_35
+  - first:
+      213: 4625863569727314773
+    second: toph power test 1_36
+  - first:
+      213: 709715776601803031
+    second: toph power test 1_37
+  - first:
+      213: 1033878526515622931
+    second: toph power test 1_38
+  - first:
+      213: -119332555548777079
+    second: toph power test 1_39
+  - first:
+      213: 8225337118153295469
+    second: toph power test 1_40
+  - first:
+      213: -2015722383548416725
+    second: toph power test 1_41
+  - first:
+      213: 2523745805772873912
+    second: toph power test 1_42
+  - first:
+      213: 8849279865530725908
+    second: toph power test 1_43
+  - first:
+      213: 2737118881981769051
+    second: toph power test 1_44
+  - first:
+      213: -5818218310512889469
+    second: toph power test 1_45
+  - first:
+      213: -8463895655455964588
+    second: toph power test 1_46
+  - first:
+      213: -3791141500482468374
+    second: toph power test 1_47
+  - first:
+      213: 5297238448339924324
+    second: toph power test 1_48
+  - first:
+      213: -49733479476146923
+    second: toph power test 1_49
+  - first:
+      213: -8986864174713599072
+    second: toph power test 1_50
+  - first:
+      213: -7545320499340053713
+    second: toph power test 1_51
+  - first:
+      213: 5103414302083272623
+    second: toph power test 1_52
+  - first:
+      213: -7746535178255190222
+    second: toph power test 1_53
+  - first:
+      213: 325280187167785363
+    second: toph power test 1_54
+  - first:
+      213: -1625396298222780901
+    second: toph power test 1_55
+  - first:
+      213: 5192499504025127456
+    second: toph power test 1_56
+  - first:
+      213: -327010083274664859
+    second: toph power test 1_57
+  - first:
+      213: -4433413576126853166
+    second: toph power test 1_58
+  - first:
+      213: -7830429480279812616
+    second: toph power test 1_59
+  - first:
+      213: -1143945778770069275
+    second: toph power test 1_60
+  - first:
+      213: 6841272261413289209
+    second: toph power test 1_61
+  - first:
+      213: -6836140623458165609
+    second: toph power test 1_62
+  - first:
+      213: 3141381365505521493
+    second: toph power test 1_63
+  - first:
+      213: -8347396745970781620
+    second: toph power test 1_64
+  - first:
+      213: -153330562655644960
+    second: toph power test 1_65
+  - first:
+      213: -8510601082587796206
+    second: toph power test 1_66
+  - first:
+      213: 3406061257281422535
+    second: toph power test 1_67
+  - first:
+      213: 8306815554176639173
+    second: toph power test 1_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toph power test 1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 720
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64da263c35ac19510800000000000000
+      internalID: 1554245807528652102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 720
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb251d6f3b167ec70800000000000000
+      internalID: 9000269805891179199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 720
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053641611ff64c350800000000000000
+      internalID: 6036072481831543632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 720
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946806fd4df3be2e0800000000000000
+      internalID: -2095511018097572279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_4
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 720
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cba08026370ac80800000000000000
+      internalID: -8313518047247025095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 480
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32284f1464c16a970800000000000000
+      internalID: 8765724812803080739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 480
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998a0702b6c71b110800000000000000
+      internalID: 1274936969070160025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 480
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3ab690f86478790800000000000000
+      internalID: -7527970671974177818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_8
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 480
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e198ad7aacabfebb0800000000000000
+      internalID: -4904496089620903650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_9
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 480
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2524d377948fdbc10800000000000000
+      internalID: 2071084398077100626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 240
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e1d3a3e8195d3c0800000000000000
+      internalID: -4335399026225766880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 240
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aa67582fdb46400800000000000000
+      internalID: 316586723141659261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 240
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c9c22340b2369a0800000000000000
+      internalID: -6241097361583727585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_13
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 240
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb4c0c3357f21ef0800000000000000
+      internalID: -138776701633278978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_14
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 240
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab451256c5b6b440800000000000000
+      internalID: 4951344703725718443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f19793bdc2090d0800000000000000
+      internalID: -3418182797100507342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_16
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe2598d4853fb90800000000000000
+      internalID: -7209321488450392155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_17
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e4d5cbd028a3070800000000000000
+      internalID: 8086919076403564181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_18
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 0
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa7dd57a2a16460800000000000000
+      internalID: 7233241316251381554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph power test 1_19
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 0
+        width: 302
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6d7e2941a47dc20800000000000000
+      internalID: 3231132709886088930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aa4df0c4750f4f941852e0cd25450c5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":302.0,"y":240.0},"gridSpriteOffset":{"x":26.0,"y":30.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      toph power test 1_0: 1554245807528652102
+      toph power test 1_1: 9000269805891179199
+      toph power test 1_10: -4335399026225766880
+      toph power test 1_11: 316586723141659261
+      toph power test 1_12: -6241097361583727585
+      toph power test 1_13: -138776701633278978
+      toph power test 1_14: 4951344703725718443
+      toph power test 1_15: -3418182797100507342
+      toph power test 1_16: -7209321488450392155
+      toph power test 1_17: 8086919076403564181
+      toph power test 1_18: 7233241316251381554
+      toph power test 1_19: 3231132709886088930
+      toph power test 1_2: 6036072481831543632
+      toph power test 1_3: -2095511018097572279
+      toph power test 1_4: -8313518047247025095
+      toph power test 1_5: 8765724812803080739
+      toph power test 1_6: 1274936969070160025
+      toph power test 1_7: -7527970671974177818
+      toph power test 1_8: -4904496089620903650
+      toph power test 1_9: 2071084398077100626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
