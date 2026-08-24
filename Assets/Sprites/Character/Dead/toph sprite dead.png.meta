@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: 875ed1a9ca2d33244a18ad99d37a5830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7507072469315546969
+    second: toph sprite dead_0
+  - first:
+      213: 3686945560036734649
+    second: toph sprite dead_1
+  - first:
+      213: -3034284280269060984
+    second: toph sprite dead_2
+  - first:
+      213: 73929065432875391
+    second: toph sprite dead_3
+  - first:
+      213: 8516309654072301011
+    second: toph sprite dead_4
+  - first:
+      213: -9083395518415095100
+    second: toph sprite dead_5
+  - first:
+      213: -83453885109530747
+    second: toph sprite dead_6
+  - first:
+      213: -4467492193085746514
+    second: toph sprite dead_7
+  - first:
+      213: -3313676169004281383
+    second: toph sprite dead_8
+  - first:
+      213: 5885909419290682615
+    second: toph sprite dead_9
+  - first:
+      213: 2731872487655313796
+    second: toph sprite dead_10
+  - first:
+      213: -3592146207338364042
+    second: toph sprite dead_11
+  - first:
+      213: -6456015373633167997
+    second: toph sprite dead_12
+  - first:
+      213: 6412681235788395250
+    second: toph sprite dead_13
+  - first:
+      213: 4371126785335147120
+    second: toph sprite dead_14
+  - first:
+      213: -2995319132539231520
+    second: toph sprite dead_15
+  - first:
+      213: -9197808319931082821
+    second: toph sprite dead_16
+  - first:
+      213: 5637827924663065236
+    second: toph sprite dead_17
+  - first:
+      213: 1762527683517089927
+    second: toph sprite dead_18
+  - first:
+      213: -3929122310237957808
+    second: toph sprite dead_19
+  - first:
+      213: 4138895702301599734
+    second: toph sprite dead_20
+  - first:
+      213: -3678295409184206882
+    second: toph sprite dead_21
+  - first:
+      213: -7502275398078994592
+    second: toph sprite dead_22
+  - first:
+      213: 4520625760172828132
+    second: toph sprite dead_23
+  - first:
+      213: 315719977579202804
+    second: toph sprite dead_24
+  - first:
+      213: 4195097274073204245
+    second: toph sprite dead_25
+  - first:
+      213: 6706455313411947446
+    second: toph sprite dead_26
+  - first:
+      213: -6744204239635236502
+    second: toph sprite dead_27
+  - first:
+      213: -6723295988532142326
+    second: toph sprite dead_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toph sprite dead_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 749
+        width: 161
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a015530d5581d790800000000000000
+      internalID: -7507072469315546969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_1
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 971
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6713cd379aa2330800000000000000
+      internalID: 3686945560036734649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 739
+        width: 163
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884c20ff58e04e5d0800000000000000
+      internalID: -3034284280269060984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 742
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7104b3e716a60100800000000000000
+      internalID: 73929065432875391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 959
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d595305282003670800000000000000
+      internalID: 8516309654072301011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_5
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 735
+        width: 210
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca3e72e6eb41f180800000000000000
+      internalID: -9083395518415095100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 730
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f8be6322387def0800000000000000
+      internalID: -83453885109530747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 845
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea21b4a25874002c0800000000000000
+      internalID: -4467492193085746514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 259
+        width: 251
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d192d5b4157302d0800000000000000
+      internalID: -3313676169004281383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 503
+        width: 119
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f462f49e63fea150800000000000000
+      internalID: 5885909419290682615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 509
+        width: 156
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4819b5ead8f89e520800000000000000
+      internalID: 2731872487655313796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 506
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67384527e02262ec0800000000000000
+      internalID: -3592146207338364042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 482
+        width: 2
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4945862, y: 0.5800886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d522e1930a766a0800000000000000
+      internalID: -6456015373633167997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 282
+        width: 239
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2fafcab9b6ef850800000000000000
+      internalID: 6412681235788395250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_14
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 506
+        width: 230
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab81ce6ac59ac30800000000000000
+      internalID: 4371126785335147120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 279
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2611c6e1d7e66d0800000000000000
+      internalID: -2995319132539231520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 465
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7106aa012da5080800000000000000
+      internalID: -9197808319931082821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 373
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ad15280a69d3e40800000000000000
+      internalID: 5637827924663065236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 385
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78804d20791c57810800000000000000
+      internalID: 1762527683517089927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 274
+        width: 259
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05154338314f879c0800000000000000
+      internalID: -3929122310237957808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_20
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 266
+        width: 254
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7e31266bf407930800000000000000
+      internalID: 4138895702301599734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_21
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 340
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf00a450d114fcc0800000000000000
+      internalID: -3678295409184206882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_22
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 261
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0676952364092e790800000000000000
+      internalID: -7502275398078994592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_23
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 29
+        width: 209
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e4957d2d7cbe30800000000000000
+      internalID: 4520625760172828132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 29
+        width: 160
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f84a1895a9a16400800000000000000
+      internalID: 315719977579202804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_25
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 29
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c7538ebaf73a30800000000000000
+      internalID: 4195097274073204245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_26
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 27
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb33f1439d121d50800000000000000
+      internalID: 6706455313411947446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_27
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 199
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69bbd3f9f5c762a0800000000000000
+      internalID: -6744204239635236502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_28
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 29
+        width: 216
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f9bb38bed02b2a0800000000000000
+      internalID: -6723295988532142326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toph sprite dead_29
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 498
+        width: 252
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcc748e3a19be54eb0b891d119100f6
+      internalID: 750818152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00ce6de9d8923ac44be18ef98669095b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toph sprite dead_0: -7507072469315546969
+      toph sprite dead_1: 3686945560036734649
+      toph sprite dead_10: 2731872487655313796
+      toph sprite dead_11: -3592146207338364042
+      toph sprite dead_12: -6456015373633167997
+      toph sprite dead_13: 6412681235788395250
+      toph sprite dead_14: 4371126785335147120
+      toph sprite dead_15: -2995319132539231520
+      toph sprite dead_16: -9197808319931082821
+      toph sprite dead_17: 5637827924663065236
+      toph sprite dead_18: 1762527683517089927
+      toph sprite dead_19: -3929122310237957808
+      toph sprite dead_2: -3034284280269060984
+      toph sprite dead_20: 4138895702301599734
+      toph sprite dead_21: -3678295409184206882
+      toph sprite dead_22: -7502275398078994592
+      toph sprite dead_23: 4520625760172828132
+      toph sprite dead_24: 315719977579202804
+      toph sprite dead_25: 4195097274073204245
+      toph sprite dead_26: 6706455313411947446
+      toph sprite dead_27: -6744204239635236502
+      toph sprite dead_28: -6723295988532142326
+      toph sprite dead_29: 750818152
+      toph sprite dead_3: 73929065432875391
+      toph sprite dead_4: 8516309654072301011
+      toph sprite dead_5: -9083395518415095100
+      toph sprite dead_6: -83453885109530747
+      toph sprite dead_7: -4467492193085746514
+      toph sprite dead_8: -3313676169004281383
+      toph sprite dead_9: 5885909419290682615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
