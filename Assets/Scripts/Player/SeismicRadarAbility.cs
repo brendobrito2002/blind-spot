@@ -31,10 +31,13 @@ public class SeismicRadarAbility : MonoBehaviour
 
     void EmitPulse()
     {
+        var playerMovement = GetComponent<PlayerMovement>();
+
         if (visualEffect != null)
         {
-            visualEffect.PlayPulse(pulseRadius);
+            playerMovement.OnSeismicRadarAnimation();
         }
+
         StartCoroutine(CooldownRoutine());
     }
 
@@ -56,5 +59,10 @@ public class SeismicRadarAbility : MonoBehaviour
     {
         Gizmos.color = new Color(0f, 1f, 1f, 0.3f);
         Gizmos.DrawWireSphere(transform.position, pulseRadius);
+    }
+
+    public void OnRadarAnimationVSFStart()
+    {
+        visualEffect.PlayPulse(pulseRadius);
     }
 }
