@@ -307,10 +307,10 @@ TextureImporter:
       name: toph power test 1_0
       rect:
         serializedVersion: 2
-        x: 26
+        x: 53
         y: 720
-        width: 302
-        height: 240
+        width: 275
+        height: 270
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,9 +638,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 26
-        y: 0
+        y: 5
         width: 302
-        height: 240
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
