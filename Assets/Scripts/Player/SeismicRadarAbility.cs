@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class SeismicRadarAbility : MonoBehaviour
 {
     public float pulseRadius = 6f;
-    public float cooldownTime = 3f;
+    public float cooldownTime = 5f;
     public Key pulseKey = Key.Space;
     public SeismicRadarVisualEffect visualEffect;
 
@@ -13,6 +13,7 @@ public class SeismicRadarAbility : MonoBehaviour
     private float cooldownTimer = 0f;
 
     public bool IsOnCooldown => isOnCooldown;
+    public float CooldownTimer => cooldownTimer;
 
     // Vai de 0 (acabou de usar) até 1 (pronto pra usar de novo), conforme o cooldown esvazia
     public float CooldownProgress => isOnCooldown ? Mathf.Clamp01(1f - (cooldownTimer / cooldownTime)) : 1f;
