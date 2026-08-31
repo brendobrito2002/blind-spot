@@ -8,6 +8,9 @@ public class AbilityCooldownUI : MonoBehaviour
 
     void Update()
     {
+        if (PauseController.IsGamePaused)
+            return;
+
         if (ability.IsOnCooldown)
         {
             time.text = Mathf.CeilToInt(ability.CooldownTimer).ToString();
