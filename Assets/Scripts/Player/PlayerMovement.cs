@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDead) return;
 
+        if (PauseController.IsGamePaused) return;
+
         moveInput = context.ReadValue<Vector2>();
 
         if (moveInput != Vector2.zero)
@@ -88,13 +90,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnSeismicRadarAnimation()
     {
-        SetUsingAbility(true);
-        animator.SetBool("IsRadar", true);
-
-        if (moveInput != Vector2.zero)
+        if(!PauseController.IsGamePaused)
         {
-            animator.SetFloat("LastInputX", moveInput.x);
-            animator.SetFloat("LastInputY", moveInput.y);
+            SetUsingAbility(true);
+            animator.SetBool("IsRadar", true);
+
+            if (moveInput != Vector2.zero)
+            {
+                animator.SetFloat("LastInputX", moveInput.x);
+                animator.SetFloat("LastInputY", moveInput.y);
+            }
         }
     }
 
