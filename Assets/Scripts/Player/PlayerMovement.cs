@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isDead = false;
     public bool IsUsingAbility { get; private set; }
 
+    public bool TutorialLocked { get; set; }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (TutorialLocked)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
         if (isDead || IsUsingAbility)
         {
             rb.linearVelocity = Vector2.zero;
@@ -37,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        if (TutorialLocked) return;
         if (isDead) return;
 
         if (PauseController.IsGamePaused) return;

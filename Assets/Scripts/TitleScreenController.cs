@@ -5,7 +5,7 @@ public class TitleScreenController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("IntroScene");
     }
 
     public void QuitGame()
