@@ -18,11 +18,17 @@ public class SeismicRadarAbility : MonoBehaviour
     // Vai de 0 (acabou de usar) até 1 (pronto pra usar de novo), conforme o cooldown esvazia
     public float CooldownProgress => isOnCooldown ? Mathf.Clamp01(1f - (cooldownTimer / cooldownTime)) : 1f;
 
-    public bool TutorialLocked { get; set; } = true;
+    public bool TutorialLocked { get; set; } = false;
 
     void Update()
     {
+        var tutorialController = FindFirstObjectByType<TutorialController>();
+
+        if (tutorialController != null && !tutorialController.CanUseRadar)
+            return;
+
         if (TutorialLocked) return;
+
         var playerMovement = GetComponent<PlayerMovement>();
         if (playerMovement != null && playerMovement.isDead) return;
 
@@ -39,7 +45,7 @@ public class SeismicRadarAbility : MonoBehaviour
     {
         var playerMovement = GetComponent<PlayerMovement>();
 
-        if (visualEffect != null)
+        if (playerMovement != null)
         {
             playerMovement.OnSeismicRadarAnimation();
         }
@@ -76,6 +82,9 @@ public class SeismicRadarAbility : MonoBehaviour
 
     public void OnRadarAnimationVSFStart()
     {
-        visualEffect.PlayPulse(pulseRadius);
+        if (visualEffect != null)
+        {
+            visualEffect.PlayPulse(pulseRadius);
+        }
     }
 }

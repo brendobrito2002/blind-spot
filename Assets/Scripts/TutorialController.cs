@@ -22,9 +22,13 @@ public class TutorialController : MonoBehaviour
 
     [SerializeField] private SeismicRadarAbility radarAbility;
 
+    public bool CanUseRadar => currentStep >= 3;
+
     void Start()
     {
         playerMovement.TutorialLocked = true;
+        radarAbility.TutorialLocked = true;
+
         narrativeBox.SetActive(true);
         dialogueBox.SetActive(false);
         movementTutorialBox.SetActive(false);
@@ -103,7 +107,7 @@ public class TutorialController : MonoBehaviour
 
     IEnumerator HideExitBox()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
 
         exitBox.SetActive(false);
 
@@ -112,7 +116,7 @@ public class TutorialController : MonoBehaviour
 
     IEnumerator FinishMovementTutorial()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
 
         MovementTutorialFinished();
     }
