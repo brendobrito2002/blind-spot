@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator animator;
+
+    private AudioSource walkAudioSource;
 
     public bool isDead = false;
     public bool IsUsingAbility { get; private set; }
@@ -23,6 +25,11 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("LastInputX", 0f);
         animator.SetFloat("LastInputY", -1f);
+
+        walkAudioSource = gameObject.AddComponent<AudioSource>();
+        walkAudioSource.spatialBlend = 0f;
+        walkAudioSource.clip = Resources.Load<AudioClip>("Audio/walk-sound");
+        walkAudioSource.loop = true;
     }
 
     // Update is called once per frame
@@ -31,15 +38,32 @@ public class PlayerMovement : MonoBehaviour
         if (TutorialLocked)
         {
             rb.linearVelocity = Vector2.zero;
+            if (walkAudioSource != null && walkAudioSource.isPlaying) walkAudioSource.Pause();
             return;
         }
-        if (isDead || IsUsingAbility)
+        if (isDead || IsUsingAbility || PauseController.IsGamePaused)
         {
-            rb.linearVelocity = Vector2.zero;
+            if (isDead || IsUsingAbility)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
+            if (walkAudioSource != null && walkAudioSource.isPlaying) walkAudioSource.Pause();
             return;
         }
 
         rb.linearVelocity = moveInput * moveSpeed;
+
+        if (walkAudioSource != null)
+        {
+            if (moveInput != Vector2.zero)
+            {
+                if (!walkAudioSource.isPlaying) walkAudioSource.Play();
+            }
+            else
+            {
+                if (walkAudioSource.isPlaying) walkAudioSource.Pause();
+            }
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -76,6 +100,8 @@ public class PlayerMovement : MonoBehaviour
         if(!isDead && other.CompareTag("KillZone"))
         {
             isDead = true;
+
+            if (walkAudioSource != null && walkAudioSource.isPlaying) walkAudioSource.Pause();
 
             animator.SetFloat("LastInputX", moveInput.x);
             animator.SetFloat("LastInputY", moveInput.y);
@@ -122,3 +148,4 @@ public class PlayerMovement : MonoBehaviour
         IsUsingAbility = value;
     }
 }
+
