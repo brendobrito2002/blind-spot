@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -25,13 +25,22 @@ public class IntroController : MonoBehaviour
     [SerializeField] private GameObject stage2;
     [SerializeField] private GameObject door;
 
-    [Header("Pr�xima cena")]
+    [Header("Próxima cena")]
     [SerializeField] private string nextSceneName;
 
     private int currentScreen = 0;
 
+    private AudioSource audioSource;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.spatialBlend = 0f;
+        }
+
         blackScreen.SetActive(true);
         messageScreen.SetActive(false);
 
@@ -121,6 +130,14 @@ public class IntroController : MonoBehaviour
 
     public void Accept()
     {
+        AudioClip acceptClip = Resources.Load<AudioClip>("Audio/mouse-click-sound");
+        if (acceptClip != null && audioSource != null)
+        {
+            audioSource.clip = acceptClip;
+            audioSource.time = 1f;
+            audioSource.Play();
+        }
+
         messageScreen.SetActive(false);
         screenReaderThree.SetActive(false);
         acceptButton.SetActive(false);
@@ -134,6 +151,15 @@ public class IntroController : MonoBehaviour
 
     public void Refuse()
     {
+        AudioClip refuseClip = Resources.Load<AudioClip>("Audio/tv-static");
+        if (refuseClip != null && audioSource != null)
+        {
+            audioSource.clip = refuseClip;
+            audioSource.time = 0f;
+            audioSource.Play();
+            Invoke(nameof(StopAudio), 0.5f);
+        }
+
         if (glitch != null)
         {
             glitch.SetActive(true);
@@ -145,4 +171,13 @@ public class IntroController : MonoBehaviour
     {
         glitch.SetActive(false);
     }
+
+    void StopAudio()
+    {
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+        }
+    }
 }
+

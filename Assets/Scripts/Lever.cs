@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Lever : MonoBehaviour
 {
@@ -33,6 +33,18 @@ public class Lever : MonoBehaviour
 
         spriteRenderer.sprite = activeSprite;
         leverInteraction.SetActive(false);
+
+        AudioClip doorSound = Resources.Load<AudioClip>("Audio/door-opening-sound");
+        if (doorSound != null)
+        {
+            AudioSource audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.spatialBlend = 0f;
+            }
+            audioSource.PlayOneShot(doorSound);
+        }
 
         levelOneController.OpenDoor();
     }

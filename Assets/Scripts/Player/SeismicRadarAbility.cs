@@ -1,4 +1,4 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,7 +15,7 @@ public class SeismicRadarAbility : MonoBehaviour
     public bool IsOnCooldown => isOnCooldown;
     public float CooldownTimer => cooldownTimer;
 
-    // Vai de 0 (acabou de usar) atÈ 1 (pronto pra usar de novo), conforme o cooldown esvazia
+    // Vai de 0 (acabou de usar) at√© 1 (pronto pra usar de novo), conforme o cooldown esvazia
     public float CooldownProgress => isOnCooldown ? Mathf.Clamp01(1f - (cooldownTimer / cooldownTime)) : 1f;
 
     public bool TutorialLocked { get; set; } = false;
@@ -34,7 +34,7 @@ public class SeismicRadarAbility : MonoBehaviour
 
         if (PauseController.IsGamePaused) return;
 
-        // SÛ dispara se a tecla foi apertada NESTE frame (evita repetir enquanto segura) e n„o est· em cooldown
+        // S√≥ dispara se a tecla foi apertada NESTE frame (evita repetir enquanto segura) e n√£o est√° em cooldown
         if (Keyboard.current != null && Keyboard.current[pulseKey].wasPressedThisFrame && !isOnCooldown)
         {
             EmitPulse();
@@ -43,6 +43,18 @@ public class SeismicRadarAbility : MonoBehaviour
 
     void EmitPulse()
     {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.spatialBlend = 0f;
+        }
+        AudioClip stompClip = Resources.Load<AudioClip>("Audio/stomp-sound");
+        if (stompClip != null)
+        {
+            audioSource.PlayOneShot(stompClip);
+        }
+
         var playerMovement = GetComponent<PlayerMovement>();
 
         if (playerMovement != null)
@@ -62,7 +74,7 @@ public class SeismicRadarAbility : MonoBehaviour
 
     IEnumerator CooldownRoutine()
     {
-        // Contagem regressiva frame a frame atÈ liberar o prÛximo uso
+        // Contagem regressiva frame a frame at√© liberar o pr√≥ximo uso
         isOnCooldown = true;
         cooldownTimer = cooldownTime;
         while (cooldownTimer > 0f)
