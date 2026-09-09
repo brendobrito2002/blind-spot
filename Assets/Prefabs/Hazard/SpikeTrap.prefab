@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &499576885121223242
+--- !u!1 &8023008230840035654
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4975363171658573198}
-  - component: {fileID: 6561718832520748658}
-  - component: {fileID: 7320895371221281765}
-  - component: {fileID: 4872222413734238775}
-  - component: {fileID: 3511663612846462850}
-  m_Layer: 0
+  - component: {fileID: 4962178502639095242}
+  - component: {fileID: 7312284692401044127}
+  - component: {fileID: 3386474581644736760}
+  - component: {fileID: 4125084097360308315}
+  - component: {fileID: 6091978585978317166}
+  m_Layer: 1
   m_Name: SpikeTrap
   m_TagString: KillZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4975363171658573198
+--- !u!4 &4962178502639095242
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499576885121223242}
+  m_GameObject: {fileID: 8023008230840035654}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28, y: -3.518, z: 0}
-  m_LocalScale: {x: 0.08067913, y: 0.119356275, z: 1}
+  m_LocalPosition: {x: -0.47, y: -2.6, z: 0}
+  m_LocalScale: {x: 0.067423776, y: 0.15414885, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6561718832520748658
+--- !u!212 &7312284692401044127
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499576885121223242}
+  m_GameObject: {fileID: 8023008230840035654}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 93043612424415166, guid: 67b7488285dcc9e4295355e6d05ee04c, type: 3}
+  m_Sprite: {fileID: 8060200810610308284, guid: 5bcddb85b2331f24e8f3705a472dda93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,14 +95,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &7320895371221281765
+--- !u!95 &3386474581644736760
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499576885121223242}
+  m_GameObject: {fileID: 8023008230840035654}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e16e8c51f97d11549b250a7ce6151fab, type: 2}
@@ -117,13 +117,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4872222413734238775
+--- !u!114 &4125084097360308315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499576885121223242}
+  m_GameObject: {fileID: 8023008230840035654}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1255b29e474399843ae52ef719506e92, type: 3}
@@ -133,8 +133,8 @@ MonoBehaviour:
   warningDuration: 0.6
   extendedDuration: 1
   randomizeStartOffset: 1
-  killZoneCollider: {fileID: 3511663612846462850}
-  spriteRenderer: {fileID: 6561718832520748658}
+  killZoneCollider: {fileID: 6091978585978317166}
+  spriteRenderer: {fileID: 7312284692401044127}
   retractedSprite: {fileID: 93043612424415166, guid: 67b7488285dcc9e4295355e6d05ee04c, type: 3}
   warningSprite: {fileID: 93043612424415166, guid: 67b7488285dcc9e4295355e6d05ee04c, type: 3}
   extendedSprite: {fileID: 8060200810610308284, guid: 5bcddb85b2331f24e8f3705a472dda93, type: 3}
@@ -143,13 +143,13 @@ MonoBehaviour:
   popClip: {fileID: 0}
   revealHighlight: {fileID: 0}
   revealDuration: 1
---- !u!61 &3511663612846462850
+--- !u!61 &6091978585978317166
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499576885121223242}
+  m_GameObject: {fileID: 8023008230840035654}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -177,7 +177,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.28472042, y: -0.15288341}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -187,5 +187,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 14.47, y: 9.65}
+  m_Size: {x: 12.875565, y: 4.9562063}
   m_EdgeRadius: 0
