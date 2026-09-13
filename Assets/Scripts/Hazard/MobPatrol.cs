@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace BlindSpot.Hazards
 {
@@ -13,11 +13,16 @@ namespace BlindSpot.Hazards
         [SerializeField] private float moveSpeed = 2f;
         [SerializeField] private float reachThreshold = 0.1f;
 
-        [Header("Animação")]
+        [Header("AnimaÃ§Ã£o")]
         [SerializeField] private Animator animator;
 
         private Rigidbody2D rb;
         private Transform currentTarget;
+
+        [Header("Som")]
+        [SerializeField] private float soundDistance = 4f;
+        private AudioSource audioSource;
+        private Transform playerTransform;
 
         private void Awake()
         {
@@ -35,6 +40,21 @@ namespace BlindSpot.Hazards
 
             rb.position = pointA.position;
             currentTarget = pointB;
+
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                playerTransform = player.transform;
+            }
+
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.spatialBlend = 0f;
+            }
+            audioSource.clip = Resources.Load<AudioClip>("Audio/skeleton-steps");
+            audioSource.loop = true;
         }
 
         private void FixedUpdate()
@@ -56,9 +76,22 @@ namespace BlindSpot.Hazards
                 animator.SetFloat("InputX", direction.x);
                 animator.SetFloat("InputY", direction.y);
             }
+
+            if (playerTransform != null && audioSource != null)
+            {
+                float distance = Vector2.Distance(rb.position, playerTransform.position);
+                if (distance <= soundDistance)
+                {
+                    if (!audioSource.isPlaying) audioSource.Play();
+                }
+                else
+                {
+                    if (audioSource.isPlaying) audioSource.Pause();
+                }
+            }
         }
 
-        // Tag "KillZone" no GameObject já resolve a colisão com o jogador,
+        // Tag "KillZone" no GameObject jÃ¡ resolve a colisÃ£o com o jogador,
         // igual aos outros hazards.
 
         private void OnDrawGizmos()
@@ -71,3 +104,5 @@ namespace BlindSpot.Hazards
         }
     }
 }
+
+
