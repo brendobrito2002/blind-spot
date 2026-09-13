@@ -12,6 +12,8 @@ public class SeismicRadarAbility : MonoBehaviour
     private bool isOnCooldown = false;
     private float cooldownTimer = 0f;
 
+    private AudioSource abilityAudioSource;
+
     public bool IsOnCooldown => isOnCooldown;
     public float CooldownTimer => cooldownTimer;
 
@@ -19,6 +21,12 @@ public class SeismicRadarAbility : MonoBehaviour
     public float CooldownProgress => isOnCooldown ? Mathf.Clamp01(1f - (cooldownTimer / cooldownTime)) : 1f;
 
     public bool TutorialLocked { get; set; } = false;
+
+    void Start()
+    {
+        abilityAudioSource = gameObject.AddComponent<AudioSource>();
+        abilityAudioSource.spatialBlend = 0f;
+    }
 
     void Update()
     {
@@ -43,16 +51,10 @@ public class SeismicRadarAbility : MonoBehaviour
 
     void EmitPulse()
     {
-        AudioSource audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-            audioSource.spatialBlend = 0f;
-        }
         AudioClip stompClip = Resources.Load<AudioClip>("Audio/stomp-sound");
         if (stompClip != null)
         {
-            audioSource.PlayOneShot(stompClip);
+            abilityAudioSource.PlayOneShot(stompClip);
         }
 
         var playerMovement = GetComponent<PlayerMovement>();

@@ -2156,7 +2156,7 @@ GameObject:
   - component: {fileID: 548441698}
   - component: {fileID: 548441697}
   m_Layer: 0
-  m_Name: LevelTwoWaypoint
+  m_Name: LevelThreeWaypoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,7 +2189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5256a1f2dcab141a2940960752f984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  sceneToLoad: FinalScene
+  sceneToLoad: LevelThreeScene
 --- !u!61 &548441698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7149,7 +7149,7 @@ MonoBehaviour:
     rid: 6700235148753371344
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.01
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 000000007bbdc23d79a08bad6fff238817846a85cb01acad5bf802b2
@@ -7173,7 +7173,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 4
+  m_PointLightOuterRadius: 3
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -9765,11 +9765,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 79216967}
+  - {fileID: 648238680}
+  - {fileID: 1068235185}
   - {fileID: 72486515}
   - {fileID: 1398098517}
-  - {fileID: 1068235185}
-  - {fileID: 648238680}
   - {fileID: 345974874}
+  - {fileID: 2091091770}
   - {fileID: 693467704}
   - {fileID: 173895465}
-  - {fileID: 2091091770}
