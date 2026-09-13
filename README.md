@@ -50,4 +50,5 @@ Jogo 2D isométrico com visão de cima para PC, focado em exploração e puzzles
     - Tileset: [Pixel Crawler - Free Pack](https://anokolisa.itch.io/free-pixel-art-asset-pack-topdown-tileset-rpg-16x16-sprites)
     - Ui: [Ornate Retro UI](https://z-spider.itch.io/ornate-retro-ui-free-sample)
     - Fonte: [Dank Depths](https://hexany-ives.itch.io/dank-depths-pixel-font)
-    - Trilha sonora: [Perverts - Ethel Cain]
+    - Trilha Sonora: [Perverts - Ethel Cain]
+    - Efeitos Sonoros : [Pixabay](https://pixabay.com/sound-effects/search)

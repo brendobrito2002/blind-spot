@@ -134,7 +134,7 @@ public class IntroController : MonoBehaviour
         if (acceptClip != null && audioSource != null)
         {
             audioSource.clip = acceptClip;
-            audioSource.time = 1f;
+            audioSource.time = 1.1f;
             audioSource.Play();
         }
 
@@ -180,4 +180,5 @@ public class IntroController : MonoBehaviour
         }
     }
 }
+
 
