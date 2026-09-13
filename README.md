@@ -2,7 +2,9 @@
 
 ## Contextualização
 
-Jogo 2D isométrico com visão de cima para PC, focado em exploração e puzzles. O jogador controla um protagonista cego que revela temporariamente o ambiente por meio de pulsos sísmicos.
+Toph Cain é uma garota que perdeu a visão há cinco ano e, um dia, recebe uma proposta misteriosa para participar de um _reality show_ clandestino, transmitido secretamente para uma audiência restrita. Ao aceitar, ela é levada a um ambiente desconhecido, onde precisará enfrentar desafios utilizando apenas seus sentidos. Ao adentrar a dungeon, a protagonista descobre um novo poder: um radar sismográfico, que revela temporariamente o ambiente ao seu redor. Conforme avança pelas fases, o jogador precisa observar, memorizar e planejar os movimentos, já que a visão é limitada. Ao finalizar a última fase, a protagonista se depara com o apresentador e enfrenta uma escolha que define o desfecho do jogo: receber uma fortuna em dinheiro, permanecendo cega, ou recuperar sua visão.
+
+Blind Spot é um jogo 2D voltado para jogadores de todas as idades interessados em exploração, puzzles e temáticas sombrias. A sua principal mecânica é a navegação por meio de radar, inspirado pela personagem Toph Beifong (Avatar: A Lenda de Aang), que durante alguns segundos dá uma visão ampliada ao jogador do que existe em sua volta. O jogo traz uma exploração com ameaças e uma narrativa própria, criando uma crítica social sobre a exploração humana como entretenimento.  
 
 ## Registro do funcionamento
 
