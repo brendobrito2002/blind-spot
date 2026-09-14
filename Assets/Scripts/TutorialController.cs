@@ -56,7 +56,7 @@ public class TutorialController : MonoBehaviour
         narrativeBox.SetActive(false);
         dialogueBox.SetActive(true);
 
-        dialogueText.text = "Eu consigo sentir as paredes…";
+        dialogueText.text = "Eu consigo sentir as paredes...";
 
         currentStep = 2;
     }
