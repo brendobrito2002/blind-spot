@@ -103,6 +103,18 @@ public class PlayerMovement : MonoBehaviour
 
             if (walkAudioSource != null && walkAudioSource.isPlaying) walkAudioSource.Pause();
 
+            AudioClip deathSound = Resources.Load<AudioClip>("Audio/death-sound");
+            if (deathSound != null)
+            {
+                GameObject deathAudioObj = new GameObject("DeathAudio");
+                AudioSource deathSource = deathAudioObj.AddComponent<AudioSource>();
+                deathSource.spatialBlend = 0f;
+                deathSource.clip = deathSound;
+                deathSource.time = 0.150f;
+                deathSource.Play();
+                Destroy(deathAudioObj, deathSound.length);
+            }
+
             animator.SetFloat("LastInputX", moveInput.x);
             animator.SetFloat("LastInputY", moveInput.y);
 
@@ -148,4 +160,6 @@ public class PlayerMovement : MonoBehaviour
         IsUsingAbility = value;
     }
 }
+
+
 

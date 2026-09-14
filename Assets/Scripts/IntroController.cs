@@ -130,6 +130,9 @@ public class IntroController : MonoBehaviour
 
     public void Accept()
     {
+        acceptButton.SetActive(false);
+        refuseButton.SetActive(false);
+
         AudioClip acceptClip = Resources.Load<AudioClip>("Audio/mouse-click-sound");
         if (acceptClip != null && audioSource != null)
         {
@@ -138,10 +141,13 @@ public class IntroController : MonoBehaviour
             audioSource.Play();
         }
 
+        Invoke(nameof(ProceedAccept), 0.6f);
+    }
+
+    private void ProceedAccept()
+    {
         messageScreen.SetActive(false);
         screenReaderThree.SetActive(false);
-        acceptButton.SetActive(false);
-        refuseButton.SetActive(false);
 
         realityShow.SetActive(true);
         stage.SetActive(true);
@@ -180,4 +186,7 @@ public class IntroController : MonoBehaviour
         }
     }
 }
+
+
+
 
