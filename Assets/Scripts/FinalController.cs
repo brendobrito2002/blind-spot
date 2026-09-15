@@ -94,6 +94,8 @@ public class FinalController : MonoBehaviour
 
     public void ChooseEyes()
     {
+        StopRealityShowSounds();
+
         showman.SetActive(false);
 
         eyes.SetActive(false);
@@ -111,6 +113,8 @@ public class FinalController : MonoBehaviour
 
     public void ChooseMoney()
     {
+        StopRealityShowSounds();
+
         showman.SetActive(false);
 
         eyes.SetActive(false);
@@ -123,6 +127,26 @@ public class FinalController : MonoBehaviour
         moneyFinal2.SetActive(false);
 
         currentStep = 6;
+    }
+
+    private void StopRealityShowSounds()
+    {
+        if (Camera.main == null)
+            return;
+
+        AudioSource[] audioSources = Camera.main.GetComponentsInChildren<AudioSource>(true);
+
+        foreach (AudioSource audioSource in audioSources)
+        {
+            if (audioSource.clip == null)
+                continue;
+
+            if (audioSource.clip.name == "crowd" ||
+                audioSource.clip.name == "reality-show-intro-music")
+            {
+                audioSource.Stop();
+            }
+        }
     }
 
     IEnumerator ReturnToTitleScreen()
